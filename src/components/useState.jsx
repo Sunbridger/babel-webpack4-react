@@ -14,7 +14,7 @@ export default function Hook() {
       {
           todos.map(el => {
               return (
-                  <div>{el.text}</div>
+                  <div key={el}>{el.text}</div>
               )
           })
       }
